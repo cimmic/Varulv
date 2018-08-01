@@ -14,19 +14,19 @@ var database;
 
 function setup() {
 
-//    var config = {
-//        apiKey: "AIzaSyAGJdCvYXSudM_OZQd2N0bgDDkIbzuXZxs",
-//        authDomain: "varulv-af491.firebaseapp.com",
-//        databaseURL: "https://varulv-af491.firebaseio.com",
-//        projectId: "varulv-af491",
-//        storageBucket: "varulv-af491.appspot.com",
-//        messagingSenderId: "453345819256"
-//    };
-//    firebase.initializeApp(config);
-//    database = firebase.database();
-//    
-//    // Start loading the data
-//    loadFirebase();
+    var config = {
+        apiKey: "AIzaSyAGJdCvYXSudM_OZQd2N0bgDDkIbzuXZxs",
+        authDomain: "varulv-af491.firebaseapp.com",
+        databaseURL: "https://varulv-af491.firebaseio.com",
+        projectId: "varulv-af491",
+        storageBucket: "varulv-af491.appspot.com",
+        messagingSenderId: "453345819256"
+    };
+    firebase.initializeApp(config);
+    database = firebase.database();
+    
+    // Start loading the data
+    loadFirebase();
     
     tilmelding();
 }
