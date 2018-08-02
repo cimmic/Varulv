@@ -28,13 +28,8 @@ function setup() {
     // Start loading the data
     loadFirebase();
     
-    createP("Navn (helst dit eget):");
-    nameInput = createInput();
-    createP("Vælg en pinkode:");
-    pinInput = createInput('', 'password');
-    createP("");
-    tilmeldKnap = createButton('Tilmeld');
-    //tilmelding();
+
+    tilmelding();
 }
 
 //Gameplay
